@@ -8,8 +8,6 @@ if (isIP(process.argv[2])) {
     const io = socket(`http://${process.argv[2]}:4000`);
     const rl = readline.createInterface({ input, output });
 
-    console.log(ip.mask());
-
     io.emit("add_user", ip.address());
 
     console.log("Connected to the chat! Enter /q for quit");
