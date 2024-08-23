@@ -47,7 +47,7 @@ $ npm -v
 To start texting, you need to clone the repository and run ***server.js***
 
 ```bash
-$ git clone url...
+$ git clone https://github.com/VadymHvas/nodejs-socket-chat.git
 ```
 
 Go to the project directory
